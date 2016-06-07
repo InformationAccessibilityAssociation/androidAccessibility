@@ -1,8 +1,6 @@
-ï»¿index: <br/>
-http://vivilahui1989.github.io/androidAccessibility/Accessibility_Android_Developers.htm
-<br/>è®©åº”ç”¨æ— éšœç¢ï¼š<br/>
-http://vivilahui1989.github.io/androidAccessibility/Making_Applications_Accessible_Android_Developers.htm
-<br/>æ— éšœç¢å¼€å‘æ¸…å•ï¼š<br/>
-http://vivilahui1989.github.io/androidAccessibility/Accessibility_Developer_Checklist_Android_Developers.htm
-<br/>æ„å»ºæ— éšœç¢æœåŠ¡ï¼š<br/>
-http://vivilahui1989.github.io/androidAccessibility/Building_Accessibility_Services_Android_Developers.htm
+#AndroidÉè¼Æ£ºÎŞÕÏ°­
+##[ÎŞÕÏ°­](http://informationaccessibilityassociation.github.io/androidAccessibility/index.htm)
+##[ÈÃÓ¦ÓÃÎŞÕÏ°­](http://informationaccessibilityassociation.github.io/androidAccessibility/apps.htm)
+##[ÎŞÕÏ°­¿ª·¢Çåµ¥](http://informationaccessibilityassociation.github.io/androidAccessibility/checklist.htm)
+##[¹¹½¨ÎŞÕÏ°­·şÎñ](http://informationaccessibilityassociation.github.io/androidAccessibility/services.htm)
+##[·­ÒëÉùÃ÷](http://informationaccessibilityassociation.github.io/androidAccessibility/declaration.htm)
