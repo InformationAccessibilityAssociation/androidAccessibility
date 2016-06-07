@@ -71,7 +71,7 @@ itemscope=""><A name="top"></A>
 <ul class="nav1">
 <li><a href="declaration.htm">翻译声明</a></li>
 <li><a href="https://developer.android.com/guide/topics/ui/accessibility/index.html">英文原文</a></li>
-<li><a href="http://informationaccessibilityassociation.github.io/androidAccessibility_ENandCH /declaration.htm">中英文对照</a></li>
+<li><a href="http://informationaccessibilityassociation.github.io/androidAccessibility_ENandCH/declaration.htm">中英文对照</a></li>
 </ul>
 </div>
 <div align="right">
@@ -336,6 +336,12 @@ Services</A>）处理的，这些服务使用这些事件中的信息去产生�
   </LI></UL>
  
 <P class="zhongwen">在任何一种情况下，需要为自定义视图类实现下面的无障碍方法：</P>
+ 
+  <UL>
+  <LI><CODE><A href="http://developer.android.com/reference/android/view/View.html#dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)">dispatchPopulateAccessibilityEvent()</A></CODE></LI>
+  <LI><CODE><A href="http://developer.android.com/reference/android/view/View.html#onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)">onPopulateAccessibilityEvent()</A></CODE></LI>
+  <LI><CODE><A href="http://developer.android.com/reference/android/view/View.html#onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)">onInitializeAccessibilityEvent()</A></CODE></LI>
+  <LI><CODE><A href="http://developer.android.com/reference/android/view/View.html#onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)">onInitializeAccessibilityNodeInfo()</A></CODE></LI></UL>
  
  <P class="zhongwen">更多信息实现这些方法,请参阅填充无障碍事件（<A href="apps.htm#populate-events">Populating
  Accessibility Events</A>）。</P>
