@@ -412,8 +412,8 @@ Library)</A>到项目。</P>
     @Override
     public void onPopulateAccessibilityEvent(View host, AccessibilityEvent event) {
         super.onPopulateAccessibilityEvent(host, event);
-	//调用父类实现来填充事件的文本。然后添加父类中不存在的文本。
-	//常常只需要在自定义视图中添加这些文本。
+		//调用父类实现来填充事件的文本。然后添加父类中不存在的文本。
+		//常常只需要在自定义视图中添加这些文本。
         CharSequence text = getText();
         if (!TextUtils.isEmpty(text)) {
             event.getText().add(text);
@@ -432,7 +432,7 @@ Library)</A>到项目。</P>
 		//调用父类实现让父类设置适当的info属性。然后添加父类不支持的属性（checkable and checked）。
         info.setCheckable(true);
         info.setChecked(isChecked());
-       //经常只需要添加自定义视图的文本。
+		//经常只需要添加自定义视图的文本。
         CharSequence text = getText();
         if (!TextUtils.isEmpty(text)) {
             info.setText(text);
