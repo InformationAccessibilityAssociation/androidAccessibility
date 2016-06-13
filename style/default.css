@@ -18,6 +18,9 @@ img.yanjiuhuilogo{
 a.inlink{
 	border-bottom:2px dotted #cacaca;
 }
+span.underline{
+	border-bottom:2px dotted #cacaca;
+}
 .nav1{
 	width:400px;
 	float:left;
