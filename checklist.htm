@@ -68,11 +68,12 @@ itemscope=""><A name="top"></A>
 <DIV class="col-12" id="doc-col">
 <br/>
 <div class="nav">
-<div>
-<ul class="nav1">
-<li><a href="declaration.htm">翻译声明</a></li>
+<div  class="nav1">
+<div class="articletop"><h1>Android开发无障碍指南</h1></div>
+<ul>
+<li><a href="declaration.htm" class="inlink">翻译声明</a></li>
 <li><a href="https://developer.android.com/guide/topics/ui/accessibility/index.html">英文原文</a></li>
-<li><a href="http://informationaccessibilityassociation.github.io/androidAccessibility_ENandCH/declaration.htm">中英文对照</a></li>
+<li><a href="http://informationaccessibilityassociation.github.io/androidAccessibility_ENandCH/declaration.htm" >中英文对照</a></li>
 </ul>
 </div>
 <div align="right">
@@ -90,20 +91,20 @@ itemscope=""><A name="top"></A>
 <H2>主题</H2>
 
 <OL>
-	<LI><A href="index.htm"> 
+	<LI><A href="index.htm" class="inlink"> 
      无障碍</A></LI>
-  <LI><A href="apps.htm"> 
+  <LI><A href="apps.htm" class="inlink"> 
      让应用无障碍</A></LI>
-  <LI><A href="checklist.htm"> 
+  <LI><A href="checklist.htm" class="inlink"> 
      无障碍开发清单</A></LI>
-  <LI><A href="services.htm"> 
+  <LI><A href="services.htm" class="inlink"> 
      构建无障碍服务</A></LI></OL>
 
   <H2>本章目录</H2>
 <OL>
-  <LI><A href="checklist.htm#requirements">无障碍需求</A></LI>
-  <LI><A href="checklist.htm#recommendations">无障碍建议</A></LI>
-  <LI><A href="checklist.htm#special-cases">特殊情况和注意事项</A></LI></OL>
+  <LI><A href="checklist.htm#requirements" class="inlink">无障碍需求</A></LI>
+  <LI><A href="checklist.htm#recommendations" class="inlink">无障碍建议</A></LI>
+  <LI><A href="checklist.htm#special-cases" class="inlink">特殊情况和注意事项</A></LI></OL>
   
   <H2>详见</H2>
 <OL>
@@ -141,9 +142,9 @@ itemscope=""><A name="top"></A>
   
   <OL>
   <LI><div class="zhongwen"><STRONG>描述用户界面控件：</STRONG>为没有视觉文本的用户界面组件提供内容<A 
-  href="apps.htm#label-ui">描述</A>，特别是图像按钮（<CODE><A href="http://developer.android.com/reference/android/widget/ImageButton.html">ImageButton</A></CODE>），图像视图（ <CODE><A href="http://developer.android.com/reference/android/widget/ImageView.html">ImageView</A></CODE>）和复选框（<CODE><A href="http://developer.android.com/reference/android/widget/CheckBox.html">CheckBox</A></CODE>）组件。使用XML布局属性<A href="http://developer.android.com/reference/android/view/View.html#attr_android:contentDescription"><CODE>android:contentDescription</CODE></A>或者使用<CODE><A href="http://developer.android.com/reference/android/view/View.html#setContentDescription(java.lang.CharSequence)">setContentDescription(CharSequence)</A></CODE>方法来为无障碍服务提供内容描述。（例外：<A href="checklist.htm#decorative">装饰性图像</A>）</div> </LI>
+  href="apps.htm#label-ui" class="inlink">描述</A>，特别是图像按钮（<CODE><A href="http://developer.android.com/reference/android/widget/ImageButton.html">ImageButton</A></CODE>），图像视图（ <CODE><A href="http://developer.android.com/reference/android/widget/ImageView.html">ImageView</A></CODE>）和复选框（<CODE><A href="http://developer.android.com/reference/android/widget/CheckBox.html">CheckBox</A></CODE>）组件。使用XML布局属性<A href="http://developer.android.com/reference/android/view/View.html#attr_android:contentDescription"><CODE>android:contentDescription</CODE></A>或者使用<CODE><A href="http://developer.android.com/reference/android/view/View.html#setContentDescription(java.lang.CharSequence)">setContentDescription(CharSequence)</A></CODE>方法来为无障碍服务提供内容描述。（例外：<A href="checklist.htm#decorative" class="inlink">装饰性图像</A>）</div> </LI>
   
-  <LI><div class="zhongwen"><STRONG>保证基于焦点的导航：</STRONG>保证用户在使用基于硬件或软件定向控制（D-pads，轨迹球，键盘和导航手势）时，<A href="apps.htm#focus-nav">可以导航</A>屏幕布局。在一些情况下，需要保证用户界面<A href="http://developer.android.com/reference/android/view/View.html#attr_android:focusable">可聚焦</A> ，或者改变<A href="apps.htm#focus-order">焦点顺序</A>使用户交互更具逻辑性。</div>
+  <LI><div class="zhongwen"><STRONG>保证基于焦点的导航：</STRONG>保证用户在使用基于硬件或软件定向控制（D-pads，轨迹球，键盘和导航手势）时，<A href="apps.htm#focus-nav" class="inlink">可以导航</A>屏幕布局。在一些情况下，需要保证用户界面<A href="http://developer.android.com/reference/android/view/View.html#attr_android:focusable">可聚焦</A> ，或者改变<A href="apps.htm#focus-order"class="inlink">焦点顺序</A>使用户交互更具逻辑性。</div>
   </LI>
   
   <LI><div class="zhongwen"><STRONG>自定义视图控件：</STRONG>如果为应用程序创建了<A href="http://developer.android.com/guide/topics/ui/custom-components.html">自定义界面控件</A>，为自定义视图<A href="http://developer.android.com/guide/topics/ui/accessibility/apps.html#custom-views"> 
@@ -177,9 +178,9 @@ itemscope=""><A name="top"></A>
   <LI><div class="zhongwen"><STRONG>文本区域提示：</STRONG>对于<CODE><A href="http://developer.android.com/reference/android/widget/EditText.html">EditText</A></CODE>区域，使用<A href="http://developer.android.com/reference/android/widget/TextView.html#attr_android:hint">android:hint</A>属性<EM>代替</EM>内容描述，当文本区域为空的时候帮助用户了解期望输入的内容，当<CODE><A href="http://developer.android.com/reference/android/widget/EditText.html">EditText</A></CODE>被填充时，允许填充内容被朗读出。 </div></LI>
   
   <LI> <div class="zhongwen"><STRONG>高视觉特性的自定义控件：</STRONG>如果应用程序包含一个具有高视觉特性的<A href="http://developer.android.com/guide/topics/ui/custom-components.html">自定义控件</A>（例如日历控件），默认无障碍服务处理不会为用户提供充足的内容描述，开发者可以考虑使用<CODE><A href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeProvider.html">AccessibilityNodeProvider</A></CODE>为控件提供<A 
-  href="apps.html#virtual-hierarchy">虚拟视图层次</A>。</div></LI>
+  href="apps.html#virtual-hierarchy" class="inlink">虚拟视图层次</A>。</div></LI>
   
-  <LI><div class="zhongwen"><STRONG>自定义控件和点击处理：</STRONG>如果应用中的自定义控件操作手势特殊，例如使用<CODE><A href="http://developer.android.com/reference/android/view/View.html#onTouchEvent(android.view.MotionEvent)">onTouchEvent(MotionEvent)</A></CODE>监听<CODE><A href="http://developer.android.com/reference/android/view/MotionEvent.html#ACTION_DOWN">MotionEvent.ACTION_DOWN</A></CODE>和<CODE><A href="http://developer.android.com/reference/android/view/MotionEvent.html#ACTION_UP">MotionEvent.ACTION_UP</A></CODE> ，并作为点击事件对待，开发者必须触发一个等效于点击的<CODE><A href="http://developer.android.com/reference/android/view/accessibility/AccessibilityEvent.html">AccessibilityEvent</A></CODE>，并为用户无障碍服务提供一种方式模拟执行这项操作。更多信息，详见“<A href="apps.html#custom-touch-events">处理自定义触摸事件</A>”。</div>
+  <LI><div class="zhongwen"><STRONG>自定义控件和点击处理：</STRONG>如果应用中的自定义控件操作手势特殊，例如使用<CODE><A href="http://developer.android.com/reference/android/view/View.html#onTouchEvent(android.view.MotionEvent)">onTouchEvent(MotionEvent)</A></CODE>监听<CODE><A href="http://developer.android.com/reference/android/view/MotionEvent.html#ACTION_DOWN">MotionEvent.ACTION_DOWN</A></CODE>和<CODE><A href="http://developer.android.com/reference/android/view/MotionEvent.html#ACTION_UP">MotionEvent.ACTION_UP</A></CODE> ，并作为点击事件对待，开发者必须触发一个等效于点击的<CODE><A href="http://developer.android.com/reference/android/view/accessibility/AccessibilityEvent.html">AccessibilityEvent</A></CODE>，并为用户无障碍服务提供一种方式模拟执行这项操作。更多信息，详见“<A href="apps.html#custom-touch-events" class="inlink">处理自定义触摸事件</A>”。</div>
 	</LI>
 	
   <LI><div class="zhongwen"><STRONG>有功能改变的控件：</STRONG>如果用户在正常使用应用的过程中，应用中的按钮或其他控件的功能会发生改变（例如，一个按钮从<STRONG>播放</STRONG>变为<STRONG>暂停</STRONG>），保证按钮的<A href="http://developer.android.com/reference/android/view/View.html#attr_android:contentDescription"><CODE>android:contentDescription</CODE></A>会相应改变。</div></LI>
@@ -191,7 +192,7 @@ itemscope=""><A name="top"></A>
   
   <LI><div class="zhongwen"><STRONG>补充无障碍音频反馈：</STRONG>仅使用Android无障碍框架为应用程序提供无障碍音频反馈。像<A href="https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback">TalkBack</A>类的无障碍服务应该是为应用提供无障碍音频反馈的唯一方式。使用<A href="http://developer.android.com/reference/android/view/View.html#attr_android:contentDescription"><CODE>android:contentDescription</CODE></A> XML布局属性或使用无障碍框架APIs动态地添加该属性来为应用提供提示信息。例如，如果开发者想要把应用程序执行的操作告知用户，如书籍自动翻页功能，使用<CODE><A href="http://developer.android.com/reference/android/view/View.html#announceForAccessibility(java.lang.CharSequence)">announceForAccessibility(CharSequence)</A></CODE>方法让无障碍服务为用户读出该信息。</div></LI>
   
-  <LI><div class="zhongwen"><STRONG>复杂视觉交互的自定义控件：</STRONG>对于提供复杂或非标准视觉交互的自定义控件，使用AccessibilityNodeProvider为自定义控件提供<A href="apps.html#virtual-hierarchy">虚拟视图层次</A>，<CODE><A href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeProvider.html">AccessibilityNodeProvider</A></CODE>允许无障碍服务为用户提供简化交互模型。如果该方式不可行，考虑提供一个无障碍的替代视图。</div></LI>
+  <LI><div class="zhongwen"><STRONG>复杂视觉交互的自定义控件：</STRONG>对于提供复杂或非标准视觉交互的自定义控件，使用AccessibilityNodeProvider为自定义控件提供<A href="apps.html#virtual-hierarchy" class="inlink">虚拟视图层次</A>，<CODE><A href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeProvider.html">AccessibilityNodeProvider</A></CODE>允许无障碍服务为用户提供简化交互模型。如果该方式不可行，考虑提供一个无障碍的替代视图。</div></LI>
   
   <LI><div><STRONG>小控件组：</STRONG>如果控件比推荐的触摸尺寸小，可以考虑使用<CODE><A href="http://developer.android.com/reference/android/view/ViewGroup.html">ViewGroup</A></CODE>将这些控件组合起来，并使用<A href="http://developer.android.com/reference/android/view/View.html#attr_android:contentDescription"><CODE>android:contentDescription</CODE></A>为该组合提供内容描述。</div></LI>
   
